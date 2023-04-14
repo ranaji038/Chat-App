@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://chat-app-kcpr.onrender.com",
+    origin: "https://serene-kelpie-02d2a4.netlify.app/",
     methods: ["GET", "POST"],
   },
 });
